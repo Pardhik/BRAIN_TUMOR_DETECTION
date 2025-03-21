@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor Detection</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <!-- Content from the second HTML file -->
+    <header class="header">
+        <section class="hero">
+            <div class="container">
+                <div class="headerText">
+                    <h1>Brain Tumor Detection</h1>
+                    <button id="abstractButton" aria-label="registration button">Abstract</button>
+                </div>
+                <div class="images">
+                   <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/12/brain_surgery_GettyImages1041926892_Header-1024x575.jpg">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        
+        <div class="gridItems">
+            
+            <div class="card">
+                <img src="https://us.123rf.com/450wm/pavlostv/pavlostv2009/pavlostv200900351/156183152-creative-technology-human-brain-with-neural-bonds-vector.jpg?ver=6" alt="" aria-hidden="true">
+                <h3>Convolutional Neural Network</h3>
+                <p style="color: azure;">In CNNs kernel filter matrice super-impose over input image to extract features out of the image pixels , which are max-pooled and further processed through additional layers to classify outputs etc</p>       
+            </div>
+            <div class="card">
+                <img src="data:image/png;base64,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" alt="" aria-hidden="true">
+                <h3>Accuracy >90%</h3>
+                <p style="color: azure;">Enhanced accuracy as a consequence of iterative max-pooling and batch normalization within the CNN model architecture</p>    
+            </div>
+            <div class="card">
+                <img src="https://t4.ftcdn.net/jpg/03/83/26/13/360_F_383261384_86BWn0mijMqqo6svwYvLEDzcq9qe8w47.jpg" alt="" aria-hidden="true">
+                <h3>3000+ MRI image data</h3>
+                <p style="color: azure;">Diverse image dataset for every respective output label , for extensive training of the CNN model and consequently improving accuracy</p>
+                
+            </div>
+        </div>
+        <div class="container1">
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label class="label" for="fileInput">Upload Image</label>
+                <input type="file" id="fileInput" name="file" accept="image/*" onchange="displayImage(event)">
+                <div id="imagePreview"></div>
+                
+                <div class="button-container">
+                    <button type="submit" id="uploadButton" style="background-color: rgb(69, 171, 255); color: azure; display: none;">DIAGNOSIS</button>
+                </div>
+
+            </form>
+             
+        </div>
+        <div id="result"></div>
+    </main>
+
+    <script>
+        document.getElementById('abstractButton').addEventListener('click', function() {
+            showAbstract();
+        });
+
+        function showAbstract() {
+            document.getElementById('result').innerHTML = `
+                <h2>Abstract</h2>
+                <p>Now a days tumor is second leading cause of cancer. Due to cancer large no of patients are in danger. The medical field needs fast, automated, efficient and reliable technique to detect tumor like brain tumor. Detection plays very important role in treatment. If proper detection of tumor is possible then doctors keep a patient out of danger. Various image processing techniques are used in this application. Using this application doctors provide proper treatment and save a number of tumor patients. A tumor is nothing but excess cells growing in an uncontrolled manner. Brain tumor cells grow in a way that they eventually take up all the nutrients meant for the healthy cells and tissues, which results in brain failure. Currently, doctors locate the position and the area of brain tumor by looking at the MR Images of the brain of the patient manually. This results in inaccurate detection of the tumor and is considered very time consuming. A tumor is a mass of tissue it grows out of control. We can use a Deep Learning architectures CNN (Convolution Neural Network) for detecting the brain tumor. The performance of model is predict image tumor is present or not in image. If the tumor is present the model further classifies the tumor into one of these three types of tumor:- 1)glioma tumor 2)meningioma tumor or 3)pituitary tumor otherwise return no.</p>
+            `;
+        }
+        function displayImage(event) {
+            const fileInput = event.target;
+            const imagePreview = document.getElementById('imagePreview');
+            const uploadButton = document.getElementById('uploadButton');
+    
+            if (fileInput.files && fileInput.files[0]) {
+                const reader = new FileReader();
+    
+                reader.onload = function (e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.style.maxWidth = '300px'; // Adjust width as needed
+                    imagePreview.innerHTML = '';
+                    imagePreview.appendChild(img);
+                    uploadButton.style.display = 'block'; // Display the upload button
+                };
+    
+                reader.readAsDataURL(fileInput.files[0]);
+            }
+        }
+    
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+    
+            const formData = new FormData();
+            const fileInput = document.getElementById('fileInput');
+    
+            if (fileInput.files.length === 0) {
+                alert('Please select a file.');
+                return;
+            }
+    
+            formData.append('file', fileInput.files[0]);
+    
+            try {
+                const response = await fetch('http://localhost:5000/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+    
+                if (!response.ok) {
+                    throw new Error('Failed to upload image.');
+                }
+    
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h2>Prediction Results</h2>
+                    <p>Predicted Label: ${data.predicted_label}</p>
+                `;
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to upload image.');
+            }
+        });
+        
+    </script>
+    
+</body>
+</html>
